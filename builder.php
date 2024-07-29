@@ -10,6 +10,7 @@
 
 <body>
     <main>
+        <!--  PORTFOLIO BUILDER FORM  -->
         <h1 class="page-title">Portfolio Builder</h1>
         <form action="#" method="post">
             <input type="text" class="username" name="name" id="name" placeholder="Full name" required>
@@ -21,10 +22,6 @@
             <input type="text" class="telegram" name="tg" id="tg" placeholder="Telegram link">
             <input type="number" class="skills" name="skill" id="skill" placeholder="Number of skills" required>
             <textarea name="abouts" class="about-me" name="abouts" id="abouts" placeholder="About you"></textarea>
-            <!-- <div class="check">
-            <input class="check" type="radio" name="gender" id="gender" value="male" required>Male</input>
-            <input class="check" type="radio" name="gender" id="gender" value="female" required>Female</input>
-            </div> -->
             <select name="gender" id="gender">
                 <option value="male">Male</option>
                 <option value="female">Female</option>
